@@ -34,7 +34,7 @@ export default function ArticlePage({ article, relatedArticles }: Props) {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>{article.title} - China IT News</title>
+        <title>{article.title} - CN Geeker</title>
         <meta name="description" content={article.summary} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.summary} />

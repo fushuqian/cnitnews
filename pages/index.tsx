@@ -25,8 +25,8 @@ export default function Home({ allArticles }: Props) {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>China IT News - Latest Chinese Technology News in English</title>
-        <meta name="description" content="Your trusted source for the latest Chinese technology news: AI, semiconductors, EVs, internet, and global expansion covered in English." />
+        <title>CN Geeker - Latest Chinese Technology News in English</title>
+        <meta name="description" content="Your geeky guide to the latest Chinese technology news: AI, chips, EVs, apps, and gadgets." />
       </Head>
       <Navbar currentCategory={category} />
       

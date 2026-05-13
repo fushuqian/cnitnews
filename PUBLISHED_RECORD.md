@@ -17,4 +17,12 @@
 | 16 | 小米YU7交付量大提升 | https://www.ithome.com/0/949/943.htm | 949/943 |
 | 17 | SK海力士中国员工奖金差距 | https://www.ithome.com/0/949/589.htm | 949/589 |
 | 18 | 任正非出镜华为芯片实验室 | https://www.ithome.com/0/948/553.htm | 948/553 |
+| 20 | 比亚迪云辇-P Ultra 技术发布：可提轮换胎、脱困，三个轮子也能跑 | https://www.ithome.com/0/950/032.htm | 0/950/032 |
+| 21 | 微软 Win11/10/7 原版 ISO 光盘镜像下载大全（2026-4-21 更新） | https://www.ithome.com/0/655/926.htm | 0/655/926 |
+| 22 | 苹果 iOS 描述文件下载大全 &amp; 完全使用攻略：玩测试版 / 限制升级…… | https://www.ithome.com/0/342/425.htm | 0/342/425 |
+
+| 20 | 比亚迪云辇-P Ultra 技术发布：可提轮换胎、脱困，三个轮子也能跑 | https://www.ithome.com/0/950/032.htm | 0/950/032 |
+| 21 | 微软 Win11/10/7 原版 ISO 光盘镜像下载大全（2026-4-21 更新） | https://www.ithome.com/0/655/926.htm | 0/655/926 |
+| 22 | 苹果 iOS 描述文件下载大全 &amp; 完全使用攻略：玩测试版 / 限制升级…… | https://www.ithome.com/0/342/425.htm | 0/342/425 |
+
 | 19 | 微软优化WinUI 3提升Win11性能 | https://www.ithome.com/0/949/519.htm | 949/519 |
