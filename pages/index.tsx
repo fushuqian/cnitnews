@@ -1,14 +1,22 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import ArticleCard from '@/components/ArticleCard';
 import Footer from '@/components/Footer';
-import { getArticles } from '@/data/articles';
-import { categories } from '@/types/article';
+import { articles } from '@/data/articles';
+import { Article, categories } from '@/types/article';
 
-export default function Home() {
+interface Props {
+  allArticles: Article[];
+}
+
+export default function Home({ allArticles }: Props) {
   const router = useRouter();
-  const category = router.query.category as string || 'all';
-  const articles = getArticles(category);
+  const category = (router.query.category as string) || 'all';
+
+  const filtered = category === 'all' 
+    ? allArticles 
+    : allArticles.filter(a => a.category === category);
 
   const currentCategoryLabel = category === 'all' 
     ? 'All News' 
@@ -16,6 +24,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Head>
+        <title>China IT News - Latest Chinese Technology News in English</title>
+        <meta name="description" content="Your trusted source for the latest Chinese technology news: AI, semiconductors, EVs, internet, and global expansion covered in English." />
+      </Head>
       <Navbar currentCategory={category} />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -28,13 +40,13 @@ export default function Home() {
           </p>
         </div>
 
-        {articles.length === 0 ? (
+        {filtered.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-gray-500 text-lg">No articles found in this category.</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((article) => (
+            {filtered.map((article) => (
               <ArticleCard key={article.id} article={article} />
             ))}
           </div>
@@ -44,4 +56,16 @@ export default function Home() {
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const sorted = [...articles].sort((a, b) => 
+    new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
+
+  return {
+    props: {
+      allArticles: sorted,
+    },
+  };
 }

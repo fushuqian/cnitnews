@@ -1,18 +1,17 @@
-import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { getArticleBySlug, getRelatedArticles } from '@/data/articles';
-import { categories } from '@/types/article';
+import { articles, getArticleBySlug, getRelatedArticles } from '@/data/articles';
+import { Article, categories } from '@/types/article';
 
-export default function ArticlePage() {
-  const router = useRouter();
-  const { slug } = router.query;
-  const article = typeof slug === 'string' ? getArticleBySlug(slug) : undefined;
-  const relatedArticles = article ? getRelatedArticles(article.category, article.id) : [];
-  const categoryLabel = article ? categories.find(c => c.key === article.category)?.label || article.category : '';
+interface Props {
+  article: Article | null;
+  relatedArticles: Article[];
+}
 
+export default function ArticlePage({ article, relatedArticles }: Props) {
   if (!article) {
     return (
       <div className="min-h-screen bg-gray-50">
@@ -30,8 +29,17 @@ export default function ArticlePage() {
     );
   }
 
+  const categoryLabel = categories.find(c => c.key === article.category)?.label || article.category;
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <Head>
+        <title>{article.title} - China IT News</title>
+        <meta name="description" content={article.summary} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.summary} />
+        <meta property="og:image" content={article.imageUrl} />
+      </Head>
       <Navbar />
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -57,6 +65,7 @@ export default function ArticlePage() {
               alt={article.title}
               fill
               className="object-cover"
+              priority
             />
           </div>
 
@@ -128,4 +137,24 @@ export default function ArticlePage() {
       <Footer />
     </div>
   );
+}
+
+export async function getStaticPaths() {
+  const paths = articles.map((article) => ({
+    params: { slug: article.slug },
+  }));
+
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({ params }: { params: { slug: string } }) {
+  const article = getArticleBySlug(params.slug) || null;
+  const relatedArticles = article ? getRelatedArticles(article.category, article.id) : [];
+
+  return {
+    props: {
+      article,
+      relatedArticles,
+    },
+  };
 }
