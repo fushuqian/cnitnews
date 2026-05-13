@@ -118,6 +118,38 @@ Fangchengbao represents BYD's push into the premium off-road EV segment — a sp
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/byd-fangchengbao-flash-charge.jpg',
   },
+  {
+    id: '10',
+    title: 'Xiaomi 17 Max Officially Announced: 6.9-Inch Giant Display Flagship Launching This Month',
+    slug: 'xiaomi-17-max-officially-announced',
+    summary: 'Xiaomi confirms the 17 Max, a massive 6.9-inch flagship with Snapdragon 8 Elite Gen 5, 200MP camera, and an 8,000mAh battery, launching late May.',
+    content: `## Xiaomi Redefines the Large-Screen Flagship
+
+Xiaomi has officially announced the 17 Max, a new addition to its 17 series, set to launch later this month. The company describes it as "redefining the large-screen standard flagship."
+
+### Key Specifications
+
+- **Display**: 6.9-inch 1.5K straight screen with ultra-narrow bezels
+- **Processor**: Snapdragon 8 Elite Gen 5
+- **Camera**: 200MP main + 50MP telephoto macro, Leica-tuned
+- **Battery**: ~8,000mAh with 100W flash charging
+- **Audio**: Symmetrical dual speakers
+- **Security**: 3D ultrasonic fingerprint
+- **Colors**: Black, Blue, White
+
+### A New Market Strategy
+
+Rather than positioning the 17 Max as a premium "Ultra" model, Xiaomi is marketing it as a "large-screen standard flagship" — core flagship features in a bigger form factor, targeting users who prioritize screen size and battery life.
+
+### Why It Matters
+
+With an 8,000mAh battery and 6.9-inch display, the 17 Max targets power users who want two-day battery life. If priced right, it could become a significant player in the large-phone segment.`,
+    category: 'gadgets',
+    tags: ['Xiaomi', 'Smartphone', 'Flagship', 'Large Screen', 'Snapdragon'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/xiaomi-17-max-announced.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
