@@ -333,6 +333,75 @@ This development is significant for Xiaomi's EV ambitions. After a blockbuster l
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/xiaomi-yu7-delivery.jpg',
   },
+  {
+    id: '17',
+    title: 'SK Hynix China Employees Receive Less Than 5% of Korean Workers\' Bonuses',
+    slug: 'sk-hynix-china-bonus-disparity',
+    summary: "Reports reveal a massive bonus gap at SK Hynix, with Chinese employees receiving less than 5% of the bonuses paid to their Korean counterparts, sparking discussions about global pay equity.",
+    content: `## Semiconductor Pay Disparity Exposed
+
+According to industry sources, SK Hynix's Chinese employees receive bonuses totaling less than 5% of what their Korean colleagues earn — a disparity that highlights the ongoing challenges of global pay structures in the semiconductor industry.
+
+### Context
+
+SK Hynix is one of the world's largest memory chip manufacturers, with significant operations in China including a major fab in Wuxi. The bonus gap comes amid broader tensions in the global semiconductor supply chain and talent competition between Chinese and Korean chipmakers.
+
+### Industry Implications
+
+This revelation underscores the challenges Chinese semiconductor companies face in attracting and retaining talent, as domestic firms like SMIC and YMTC compete for experienced workers against well-funded Korean giants.`,
+    category: 'chip',
+    tags: ['SK Hynix', 'Semiconductor', 'China', 'South Korea', 'Talent'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/sk-hynix-china-bonus.jpg',
+  },
+  {
+    id: '18',
+    title: 'Huawei Founder Ren Zhengfei Makes Rare Public Appearance, Showcasing Chip Research Lab on State TV',
+    slug: 'ren-zhengfei-huawei-chip-lab-cctv',
+    summary: "Huawei's reclusive founder Ren Zhengfei appeared on China's national news broadcast, offering a rare glimpse into the company's semiconductor fundamental research lab.",
+    content: `## A Rare Glimpse Inside Huawei's R&D
+
+Huawei founder Ren Zhengfei made a rare public appearance on China Central Television (CCTV) news, walking through the company's chip fundamental technology research laboratory. The segment offered insight into Huawei's ongoing investment in semiconductor research despite US export restrictions.
+
+### Significance
+
+Ren, who rarely appears in media, has become a symbol of China's drive for semiconductor self-sufficiency. His appearance on national television signals confidence in Huawei's chip research progress — an area that has been under intense scrutiny since US sanctions cut off Huawei's access to advanced chip manufacturing.
+
+### The Lab Visit
+
+The broadcast showed researchers working on chip architecture, materials science, and fundamental semiconductor technologies. While specific details were limited, the optics were clear: Huawei is continuing to invest heavily in domestic chip capabilities.`,
+    category: 'chip',
+    tags: ['Huawei', 'Ren Zhengfei', 'Semiconductor', 'Chip', 'Research'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/ren-zhengfei-huawei-lab.jpg',
+  },
+  {
+    id: '19',
+    title: 'Microsoft Optimizes WinUI 3 Framework, Significantly Boosting Windows 11 Responsiveness',
+    slug: 'microsoft-winui3-windows11-performance',
+    summary: "Microsoft's latest WinUI 3 optimizations deliver noticeable improvements to Windows 11 system responsiveness, addressing long-standing performance complaints.",
+    content: `## Windows 11 Gets a Performance Boost
+
+Microsoft has rolled out significant optimizations to the WinUI 3 framework, resulting in a measurably more responsive Windows 11 experience. The update addresses performance bottlenecks in the UI layer that developers and power users had been reporting.
+
+### What's Improved
+
+- Faster app launch times for WinUI-based applications
+- Smoother animations and transitions
+- Reduced memory usage in UI components
+- Better touch and pen input responsiveness
+
+### Why It Matters
+
+WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Microsoft's own apps (Settings, File Explorer components) and third-party developers. Improvements to the framework benefit the entire Windows ecosystem, making the OS feel snappier without requiring hardware upgrades.`,
+    category: 'gadgets',
+    tags: ['Microsoft', 'Windows 11', 'WinUI 3', 'Performance'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/microsoft-winui3-optimization.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
