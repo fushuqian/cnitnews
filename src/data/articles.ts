@@ -222,10 +222,11 @@ This move represents Chinese smartphone makers' strategy to diversify beyond sat
 ];
 
 export const getArticles = (category?: string): Article[] => {
+  const sorted = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
   if (!category || category === 'all') {
-    return articles;
+    return sorted;
   }
-  return articles.filter(article => article.category === category);
+  return sorted.filter(article => article.category === category);
 };
 
 export const getArticleBySlug = (slug: string): Article | undefined => {
