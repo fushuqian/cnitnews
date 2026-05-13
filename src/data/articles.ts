@@ -439,6 +439,18 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
     publishedAt: '2026-05-14',
     imageUrl: '/images/articles/claude-code-goal-mode.jpg',
   },
+  {
+    id: '23',
+    title: 'China Breaks Quantum Computing Record with 1024-Qubit Jiuzhang 4.0 Prototype',
+    slug: 'china-jiuzhang-4-quantum-computing-record',
+    summary: 'Chinese scientists unveil Jiuzhang 4.0, a 1024-quantum-squeezed-state photonic quantum computer that is 10^54 times faster than the world fastest supercomputer, manipulating up to 3,050 photons simultaneously.',
+    content: '## Another Quantum Leap from China\n\nChinese research team led by Pan Jianwei and Lu Chaoyang from the University of Science and Technology of China (USTC) has successfully developed Jiuzhang 4.0 (九章四号), a programmable photonic quantum computing prototype with 1,024 quantum squeezed state inputs and 8,176 modes.\n\nThe achievement, published in the journal Nature on May 13, marks a new world record in photonic quantum information technology.\n\n### Record-Breaking Specifications\n\n- **Qubit count**: 1,024 quantum squeezed state inputs\n- **Photon manipulation**: Up to 3,050 photons simultaneously (up from 255 in Jiuzhang 3.0)\n- **Computational advantage**: 10^54 times faster than the worlds fastest supercomputer for Gaussian boson sampling\n- **Sample generation**: 25 microseconds per sample (vs. 10^42 years on classical supercomputers)\n\n### The Evolution of Jiuzhang\n\nThe Jiuzhang series has been pushing boundaries since 2020:\n- **Jiuzhang 1.0** (2020): First demonstration of quantum advantage\n- **Jiuzhang 2.0**: Upgraded performance\n- **Jiuzhang 3.0**: 255 photons manipulated\n- **Jiuzhang 4.0** (2026): 3,050 photons, 10^54x speedup\n\n### Technical Breakthrough\n\nThe key innovation is a high-efficiency optical parametric oscillator light source combined with a spatiotemporal hybrid encoding interferometer. This integrates 1,024 high-efficiency squeezed-state light fields into a single 8,176-mode circuit, achieving a cubic expansion in connectivity.\n\n### Why It Matters\n\nQuantum computing represents the next frontier in computing power. China has invested heavily in multiple quantum approaches including photonic (Jiuzhang), superconducting (Zuchongzhi), and ion trap technologies. This latest achievement cements Chinas leadership in photonic quantum computing and opens possibilities for fault-tolerant quantum computing hardware in the future.',
+    category: 'chip',
+    tags: ['Quantum Computing', 'Jiuzhang', 'China Science', 'Photonics', 'Nature'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-14',
+    imageUrl: '/images/articles/jiuzhang-4-quantum.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
