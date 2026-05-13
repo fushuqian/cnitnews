@@ -181,6 +181,44 @@ This launch shows how Chinese consumer electronics brands are moving beyond just
     publishedAt: '2026-05-13',
     imageUrl: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800',
   },
+  {
+    id: '8',
+    title: 'vivo Pocket Gimbal Camera Rumored for Q4 Launch as Chinese Smartphone Giants Rush to Enter Market',
+    slug: 'vivo-pocket-gimbal-camera-q4-launch',
+    summary: 'vivo is preparing its first handheld gimbal camera for Q4 2026, with an initial production target of 1 million units. OPPO, Huawei, Xiaomi, and Honor are all reportedly working on competing products.',
+    content: `## vivo Enters the Gimbal Camera Arena
+
+According to a report from Leiphone (雷锋网), vivo is developing its first handheld gimbal camera, tentatively named "vivo Pocket", set for release in Q4 2026. Mass production is expected to start in October, with a launch window of November to December.
+
+### Key Details
+
+- **Sensor**: 1/1.1-inch image sensor
+- **Production Target**: ~1 million units initially
+- **Launch Timeline**: Q4 2026 (October mass production, Nov-Dec launch)
+- **Market Positioning**: Direct competitor to DJI's handheld gimbal cameras
+
+### The Chinese Gimbal Camera Race
+
+vivo is far from alone. According to the report:
+
+- **OPPO**: Has started its gimbal camera project (codenamed "Fuyao"), also targeting Q4 2026
+- **Huawei, Xiaomi, Honor**: All have formed project teams, eyeing 2027 launches depending on market reception
+
+Industry sources suggest vivo originally planned a Q3 2026 launch but pushed it back to Q4 to observe competitor products first.
+
+### Market Context
+
+The handheld smart camera market is currently dominated by DJI with a 62% share (~10.4 million units in 2025), followed by Insta360 at 12% (~3.4 million), and GoPro at 8%. The entry of multiple Chinese smartphone giants signals growing confidence in this category.
+
+### Why It Matters
+
+This move represents Chinese smartphone makers' strategy to diversify beyond saturated phone markets into adjacent consumer electronics categories — a trend that could reshape the global action camera and vlogging equipment landscape.`,
+    category: 'gadgets',
+    tags: ['vivo', 'Gimbal Camera', 'OPPO', 'DJI', 'Consumer Electronics', 'Chinese Tech'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
