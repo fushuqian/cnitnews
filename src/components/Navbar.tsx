@@ -63,7 +63,7 @@ export default function Navbar({ currentCategory = 'all' }: NavbarProps) {
               <div className="py-1">
                 <Link
                   href="/"
-                  className={`block px-4 py-2.5 text-sm transition-colors ${
+                  className={`block px-4 py-2.5 text-sm text-right transition-colors ${
                     currentCategory === 'all'
                       ? 'bg-primary-50 text-primary-500 font-semibold'
                       : 'text-gray-700 hover:bg-gray-100'
@@ -75,7 +75,7 @@ export default function Navbar({ currentCategory = 'all' }: NavbarProps) {
                   <Link
                     key={category.key}
                     href={`/?category=${category.key}`}
-                    className={`block px-4 py-2.5 text-sm transition-colors ${
+                    className={`block px-4 py-2.5 text-sm text-right transition-colors ${
                       currentCategory === category.key
                         ? 'bg-primary-50 text-primary-500 font-semibold'
                         : 'text-gray-700 hover:bg-gray-100'
