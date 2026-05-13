@@ -150,6 +150,78 @@ With an 8,000mAh battery and 6.9-inch display, the 17 Max targets power users wh
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/xiaomi-17-max-announced.jpg',
   },
+  {
+    id: '11',
+    title: 'Sony Xperia 1 VIII Launches: Bigger Camera Sensors, Snapdragon 8 Elite Gen 5, and a Bold New Design',
+    slug: 'sony-xperia-1-viii-launch',
+    summary: "Sony's latest flagship features a completely redesigned camera module with a 4x larger telephoto sensor, Snapdragon 8 Elite Gen 5, and a unique 'ORE' design language.",
+    content: `## Sony's Camera-First Flagship Gets a Major Update
+
+Sony has officially unveiled the Xperia 1 VIII, its latest flagship smartphone, featuring significant camera upgrades and the latest Snapdragon chip.
+
+### Camera: The Big Story
+
+The most notable change is the redesigned camera system. Gone is the vertical camera strip — replaced by a square module called "ORE," inspired by natural ore textures. The new triple 48MP setup includes:
+
+- **Main**: 48MP (1/1.35", 24mm f/1.9, OIS)
+- **Ultrawide**: 48MP (1/1.56", 16mm f/2.0)
+- **Telephoto**: 48MP (1/1.56", 70mm f/2.8) — 4x larger sensor than the previous generation
+
+All three rear cameras now support RAW multi-frame processing for better dynamic range and low-light performance. An AI Camera Assistant analyzes scenes and recommends settings.
+
+### Performance & Features
+
+- **Chip**: Snapdragon 8 Elite Gen 5
+- **RAM/Storage**: 12GB+256GB base, up to 16GB+1TB
+- **Display**: 6.5" LTPO OLED, no notch/punch-hole (front camera in the bezel)
+- **Battery**: 5,000mAh with 30W wired + 15W wireless charging
+- **Audio**: 3.5mm headphone jack, Walkman-tuned stereo speakers
+- **Durability**: IP65/IP68, physical shutter button
+- **Updates**: 4 Android version upgrades + 6 years of security patches
+
+### Pricing & Availability
+
+Starting at £1,399 / €1,499 (12GB+256GB), pre-orders include a free Sony WH-1000XM6 headset. Available in Obsidian, Silver Stone, Pomegranate Red, and Natural Gold (exclusive).`,
+    category: 'gadgets',
+    tags: ['Sony', 'Xperia', 'Smartphone', 'Flagship', 'Snapdragon'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/sony-xperia1-viii.jpg',
+  },
+  {
+    id: '12',
+    title: 'Google Launches "Googlebook": A New Premium Android Laptop Category, Coming Fall 2026',
+    slug: 'google-googlebook-premium-android-laptop',
+    summary: "Google introduces Googlebook, a high-end Android laptop category with Gemini AI at its core. Acer, ASUS, Dell, HP, and Lenovo will launch first models this fall.",
+    content: `## Android Goes Premium: Meet Googlebook
+
+At today's Android Show | I/O Edition, Google announced Googlebook — a new category of premium Android laptops, positioning them above traditional Chromebooks.
+
+### What Is Googlebook?
+
+Googlebook isn't a single Google-made device, but a partner brand similar to Chromebooks. Acer, ASUS, Dell, HP, and Lenovo will launch the first models in Fall 2026, featuring premium materials and a distinctive light bar design.
+
+### Gemini AI at the Core
+
+Googlebook puts AI front and center:
+
+- **Magic Pointer**: Shake your cursor and Gemini analyzes on-screen content — compare images, create shopping composites, or add calendar events from emails
+- **Create My Widget**: Describe a widget in natural language, and Gemini generates it on the fly, pulling data from Gmail, Calendar, and search
+
+### Cross-Device Features
+
+- **Cast My Apps**: Run phone apps directly on the Googlebook
+- **Quick Access**: Browse, search, and transfer phone files from the laptop's file manager
+
+### Strategic Significance
+
+Industry observers see Googlebook as a signal that Google is gradually shifting its laptop strategy from ChromeOS toward an Android + Gemini ecosystem. While Chromebooks still get 10-year lifecycles, Googlebook represents a clear step upmarket.`,
+    category: 'gadgets',
+    tags: ['Google', 'Googlebook', 'Android', 'Laptop', 'Gemini AI'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/google-googlebook.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
