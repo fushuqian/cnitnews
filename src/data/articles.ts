@@ -219,6 +219,49 @@ This move represents Chinese smartphone makers' strategy to diversify beyond sat
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/vivo-pocket-gimbal.jpg',
   },
+  {
+    id: '9',
+    title: "BYD Launches Fangchengbao Bao 8 & Bao 5 Flash Charge Edition: The World's First Flash-Charge Off-Road Vehicle",
+    slug: 'byd-fangchengbao-flash-charge-offroad-ev',
+    summary: "BYD's luxury off-road sub-brand Fangchengbao launches flash-charge editions of the Bao 8 and Bao 5 SUVs, starting at ¥305,800. Features include 800V charging, 1,380km range, and a groundbreaking suspension system that can change tires in 3 minutes.",
+    content: `## BYD Redefines Off-Road EVs
+
+BYD's luxury off-road sub-brand Fangchengbao (方程豹, lit. "Formula Leopard") today launched the flash-charge editions of its Bao 8 and Bao 5 SUVs at a launch event in Shenzhen. The company claims these are the world's first flash-charge capable off-road vehicles.
+
+### Pricing
+
+| Model | Price | Limited-Time Offer |
+|-------|-------|-------------------|
+| Bao 8 Flash Charge Edition | ¥419,800 (~$58,100) | ¥409,800 (~$56,700) |
+| Bao 5 Flash Charge Edition | ¥305,800 (~$42,300) | ¥299,800 (~$41,500) |
+
+### Battery & Charging
+
+Both models are equipped with BYD's second-generation blade battery and an 800V high-voltage flash charging platform. The Bao 8 achieves a combined range of 1,380 km (857 miles), while the Bao 5 reaches 1,310 km (814 miles).
+
+### Cloud Chariot-P Ultra Suspension
+
+The biggest talking point is the new Yun Nian-P Ultra (Cloud Chariot-P Ultra) suspension system, BYD's latest high-end off-road technology. It brings some genuinely impressive capabilities:
+
+- **3-minute air jack tire change** — the vehicle can lift and change a tire automatically
+- **3-wheel driving** — can continue driving at up to 15 km/h even with one wheel missing
+- **All four wheels can lift independently** for obstacle clearance
+- **Blowout stability system** — emergency support for sudden tire bursts
+
+### Smart Driving
+
+- **Bao 8**: Upgraded to ADS V4.1.5 with front and rear dual LiDAR, plus a new ultra-long-range infrared night vision system
+- **Bao 5**: Equipped with God's Eye-B assisted driving with LiDAR
+
+### Why This Matters
+
+Fangchengbao represents BYD's push into the premium off-road EV segment — a space dominated by traditional ICE vehicles like the Jeep Wrangler and Toyota Land Cruiser. Flash-charge technology combined with serious off-road capability could be a game-changer if BYD decides to export these models globally.`,
+    category: 'ev',
+    tags: ['BYD', 'Fangchengbao', 'Electric Vehicle', 'Off-Road', 'Flash Charge'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/byd-fangchengbao-flash-charge.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
