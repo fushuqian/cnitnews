@@ -221,6 +221,65 @@ Industry observers see Googlebook as a signal that Google is gradually shifting 
     author: 'China Tech Insider',
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/google-googlebook.jpg',
+  },  },
+  {
+    id: '13',
+    title: 'iOS 27 Preview: Fully Customizable Camera, Rebuilt Siri AI Agent, Redesigned Safari and Weather',
+    slug: 'ios-27-preview-custom-camera-siri-ai',
+    summary: "Bloomberg reports Apple's iOS 27 will bring a fully customizable Camera app interface, a new 24/7 Siri AI agent with chatbot-style UI, plus redesigned Safari and Weather apps.",
+    content: `## iOS 27: Apple's Biggest Software Update in Years?
+
+According to Bloomberg's Mark Gurman, Apple is preparing a major iOS 27 update with transformative changes across the system.
+
+### Camera App: Fully Customizable
+
+The Camera app gets a completely overhauled interface where users can arrange controls (flash, exposure, timer, resolution) anywhere on screen. Each shooting mode has its own control set, accessible via a transparent "Add Controls" tray. Advanced options include depth, exposure, and photo style controls.
+
+### Siri Becomes a 24/7 AI Agent
+
+Siri is getting its biggest overhaul ever — transforming from a voice assistant into an always-on AI agent that can access personal data and perform actions across apps. The new interface features a large Dynamic Island animation, and users can swipe down into a chatbot-style conversation mode. A new "Search or Ask" bar also lets users toggle between Siri, ChatGPT, and Gemini.
+
+### Safari, Weather, and System Changes
+
+- **Safari**: New start page with tabs for Favorites, Bookmarks, Reading List, and History
+- **Weather**: New "Weather Conditions" panel with rainfall and wind info on the same page
+- **System**: Multiple app tab bars redesigned; undo/redo for home screen editing; new keyboard animation`,
+    category: 'gadgets',
+    tags: ['Apple', 'iOS 27', 'iPhone', 'Siri', 'AI'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/ios27-preview.jpg',
+  },
+  {
+    id: '14',
+    title: "Huawei's Next Product Family Leaked: nova 16 Series, MatePad Pro Max, and Watch Kids X1",
+    slug: 'huawei-nova16-matepad-pro-max-leak',
+    summary: 'Leaked details reveal Huawei\'s upcoming product lineup including the nova 16 phones with upgraded cameras, a 13.2\" MatePad Pro Max tablet, and new smartwatches for kids.',
+    content: `## Huawei's 2026 Product Pipeline Exposed
+
+Reliable leaker Digital Chat Station has revealed details on Huawei's upcoming product family, spanning phones, tablets, and wearables.
+
+### Huawei nova 16 Series
+
+The nova 16 series will feature a "big big version" (likely the nova 16 Ultra) with a ~1/1.3\" large main sensor, periscope telephoto, multi-spectrum sensors, and wireless charging. The standard version reportedly gets a new 6.68\" display.
+
+### MatePad Pro Max
+
+- **Display**: 13.2\" 3000×2000p 144Hz OLED flexible screen, 3.55mm bezels
+- **Camera**: 50MP rear, 12MP front
+- **Chip**: Kirin 9-series flagship
+- **Battery**: 10,400mAh with 66W/100W charging
+- **Features**: Satellite communication, StarFlash connectivity, USB 3.2 Gen1, optional matte screen
+- **Colors**: Slate Gray, Glacier Blue, Moonlight Silver
+
+### Watch Kids X1 Series
+
+Already released overseas, the Watch Kids X1 and X1 Pro feature a 1.82\" AMOLED display, rugged design with metal accents, built-in camera on the Pro model, and safety-focused features for children.`,
+    category: 'gadgets',
+    tags: ['Huawei', 'nova', 'MatePad', 'Smartwatch', 'Leak'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/huawei-nova16-family.jpg',
   },
 ];
 
