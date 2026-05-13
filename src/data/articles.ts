@@ -427,6 +427,18 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/honor-appgallery-harmonyos.jpg',
   },
+  {
+    id: '22',
+    title: 'An Australian Sheep Farmer Just Changed How AI Codes: The /goal Revolution',
+    slug: 'australian-sheep-farmer-ai-goal-mode',
+    summary: 'Geoffrey Huntley 3-line bash script inspired OpenAI, Anthropic, and Nous Research to adopt /goal mode in 11 days.',
+    content: 'A sheep farmer 3-line bash script sparked a revolution in AI coding. Geoffrey Huntley Ralph Loop inspired OpenAI, Anthropic, and Claude Code to adopt /goal mode within 11 days. The idea is simple: keep running the AI until the job is done. OpenAI Codex stores goals persistently across restarts. Hermes Agent uses multi-agent kanban boards. Claude Code uses a separate model to verify completion.',
+    category: 'ai',
+    tags: ['AI', 'Claude Code', 'OpenAI', 'AI Programming'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-14',
+    imageUrl: '/images/articles/claude-code-goal-mode.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
