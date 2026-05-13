@@ -5,7 +5,7 @@ export const articles: Article[] = [
     id: '7',
     title: "Laifen Launches SE 2 Wiggle Edition Hair Dryer: Chinese Brand's Latest Consumer Tech Hit",
     slug: 'laifen-se2-wiggle-hair-dryer-launch',
-    summary: "Laifen's SE 2 Wiggle collaboration edition hair dryer launches at just Â¥424 (â‰ˆ$59), featuring a 108,000 RPM motor, smart temperature control, and a dedicated children's mode.",
+    summary: "Laifen's SE 2 Wiggle collaboration edition hair dryer launches at just Â¥424 (â‰?59), featuring a 108,000 RPM motor, smart temperature control, and a dedicated children's mode.",
     content: `## Laifen Goes Collaborative
 
 Laifen (å¾•èŠ¬), the Chinese consumer electronics brand known for its high-speed hair dryers, has launched the SE 2 Wiggle collaboration edition. The special edition is priced at just Â¥424.15 (approximately $59 USD) after government subsidies.
@@ -30,7 +30,7 @@ One standout feature is the **Children's Mode**, with two temperature settings: 
 
 Laifen has been aggressively expanding overseas, with its products available on Amazon and Best Buy in the U.S. The original SE 2 retails for around $79-99 on Amazon, making the Wiggle edition's Â¥424 price point (around $59) particularly competitive for the Chinese domestic market.
 
-This launch shows how Chinese consumer electronics brands are moving beyond just "good enough" to offering genuinely innovative features at compelling price points â€” a trend that global consumers are starting to notice.`,
+This launch shows how Chinese consumer electronics brands are moving beyond just "good enough" to offering genuinely innovative features at compelling price points â€?a trend that global consumers are starting to notice.`,
     category: 'gadgets',
     tags: ['Laifen', 'Consumer Electronics', 'Hair Dryer', 'Chinese Brands'],
     author: 'China Tech Insider',
@@ -44,7 +44,7 @@ This launch shows how Chinese consumer electronics brands are moving beyond just
     summary: 'vivo is preparing its first handheld gimbal camera for Q4 2026, with an initial production target of 1 million units. OPPO, Huawei, Xiaomi, and Honor are all reportedly working on competing products.',
     content: `## vivo Enters the Gimbal Camera Arena
 
-According to a report from Leiphone (é›·é”‹ç½‘), vivo is developing its first handheld gimbal camera, tentatively named "vivo Pocket", set for release in Q4 2026. Mass production is expected to start in October, with a launch window of November to December.
+According to a report from Leiphone (é›·é”‹ç½?, vivo is developing its first handheld gimbal camera, tentatively named "vivo Pocket", set for release in Q4 2026. Mass production is expected to start in October, with a launch window of November to December.
 
 ### Key Details
 
@@ -68,7 +68,7 @@ The handheld smart camera market is currently dominated by DJI with a 62% share 
 
 ### Why It Matters
 
-This move represents Chinese smartphone makers' strategy to diversify beyond saturated phone markets into adjacent consumer electronics categories â€” a trend that could reshape the global action camera and vlogging equipment landscape.`,
+This move represents Chinese smartphone makers' strategy to diversify beyond saturated phone markets into adjacent consumer electronics categories â€?a trend that could reshape the global action camera and vlogging equipment landscape.`,
     category: 'gadgets',
     tags: ['vivo', 'Gimbal Camera', 'OPPO', 'DJI', 'Consumer Electronics', 'Chinese Tech'],
     author: 'China Tech Insider',
@@ -82,7 +82,7 @@ This move represents Chinese smartphone makers' strategy to diversify beyond sat
     summary: "BYD's luxury off-road sub-brand Fangchengbao launches flash-charge editions of the Bao 8 and Bao 5 SUVs, starting at Â¥305,800. Features include 800V charging, 1,380km range, and a groundbreaking suspension system that can change tires in 3 minutes.",
     content: `## BYD Redefines Off-Road EVs
 
-BYD's luxury off-road sub-brand Fangchengbao (æ–¹ç¨‹è±¹, lit. "Formula Leopard") today launched the flash-charge editions of its Bao 8 and Bao 5 SUVs at a launch event in Shenzhen. The company claims these are the world's first flash-charge capable off-road vehicles.
+BYD's luxury off-road sub-brand Fangchengbao (æ–¹ç¨‹è±? lit. "Formula Leopard") today launched the flash-charge editions of its Bao 8 and Bao 5 SUVs at a launch event in Shenzhen. The company claims these are the world's first flash-charge capable off-road vehicles.
 
 ### Pricing
 
@@ -99,10 +99,10 @@ Both models are equipped with BYD's second-generation blade battery and an 800V 
 
 The biggest talking point is the new Yun Nian-P Ultra (Cloud Chariot-P Ultra) suspension system, BYD's latest high-end off-road technology. It brings some genuinely impressive capabilities:
 
-- **3-minute air jack tire change** â€” the vehicle can lift and change a tire automatically
-- **3-wheel driving** â€” can continue driving at up to 15 km/h even with one wheel missing
+- **3-minute air jack tire change** â€?the vehicle can lift and change a tire automatically
+- **3-wheel driving** â€?can continue driving at up to 15 km/h even with one wheel missing
 - **All four wheels can lift independently** for obstacle clearance
-- **Blowout stability system** â€” emergency support for sudden tire bursts
+- **Blowout stability system** â€?emergency support for sudden tire bursts
 
 ### Smart Driving
 
@@ -111,7 +111,7 @@ The biggest talking point is the new Yun Nian-P Ultra (Cloud Chariot-P Ultra) su
 
 ### Why This Matters
 
-Fangchengbao represents BYD's push into the premium off-road EV segment â€” a space dominated by traditional ICE vehicles like the Jeep Wrangler and Toyota Land Cruiser. Flash-charge technology combined with serious off-road capability could be a game-changer if BYD decides to export these models globally.`,
+Fangchengbao represents BYD's push into the premium off-road EV segment â€?a space dominated by traditional ICE vehicles like the Jeep Wrangler and Toyota Land Cruiser. Flash-charge technology combined with serious off-road capability could be a game-changer if BYD decides to export these models globally.`,
     category: 'ev',
     tags: ['BYD', 'Fangchengbao', 'Electric Vehicle', 'Off-Road', 'Flash Charge'],
     author: 'China Tech Insider',
@@ -139,7 +139,7 @@ Xiaomi has officially announced the 17 Max, a new addition to its 17 series, set
 
 ### A New Market Strategy
 
-Rather than positioning the 17 Max as a premium "Ultra" model, Xiaomi is marketing it as a "large-screen standard flagship" â€” core flagship features in a bigger form factor, targeting users who prioritize screen size and battery life.
+Rather than positioning the 17 Max as a premium "Ultra" model, Xiaomi is marketing it as a "large-screen standard flagship" â€?core flagship features in a bigger form factor, targeting users who prioritize screen size and battery life.
 
 ### Why It Matters
 
@@ -161,11 +161,11 @@ Sony has officially unveiled the Xperia 1 VIII, its latest flagship smartphone, 
 
 ### Camera: The Big Story
 
-The most notable change is the redesigned camera system. Gone is the vertical camera strip â€” replaced by a square module called "ORE," inspired by natural ore textures. The new triple 48MP setup includes:
+The most notable change is the redesigned camera system. Gone is the vertical camera strip â€?replaced by a square module called "ORE," inspired by natural ore textures. The new triple 48MP setup includes:
 
 - **Main**: 48MP (1/1.35", 24mm f/1.9, OIS)
 - **Ultrawide**: 48MP (1/1.56", 16mm f/2.0)
-- **Telephoto**: 48MP (1/1.56", 70mm f/2.8) â€” 4x larger sensor than the previous generation
+- **Telephoto**: 48MP (1/1.56", 70mm f/2.8) â€?4x larger sensor than the previous generation
 
 All three rear cameras now support RAW multi-frame processing for better dynamic range and low-light performance. An AI Camera Assistant analyzes scenes and recommends settings.
 
@@ -181,7 +181,7 @@ All three rear cameras now support RAW multi-frame processing for better dynamic
 
 ### Pricing & Availability
 
-Starting at Â£1,399 / â‚¬1,499 (12GB+256GB), pre-orders include a free Sony WH-1000XM6 headset. Available in Obsidian, Silver Stone, Pomegranate Red, and Natural Gold (exclusive).`,
+Starting at Â£1,399 / â‚?,499 (12GB+256GB), pre-orders include a free Sony WH-1000XM6 headset. Available in Obsidian, Silver Stone, Pomegranate Red, and Natural Gold (exclusive).`,
     category: 'gadgets',
     tags: ['Sony', 'Xperia', 'Smartphone', 'Flagship', 'Snapdragon'],
     author: 'China Tech Insider',
@@ -195,7 +195,7 @@ Starting at Â£1,399 / â‚¬1,499 (12GB+256GB), pre-orders include a free Sony WH-1
     summary: "Google introduces Googlebook, a high-end Android laptop category with Gemini AI at its core. Acer, ASUS, Dell, HP, and Lenovo will launch first models this fall.",
     content: `## Android Goes Premium: Meet Googlebook
 
-At today's Android Show | I/O Edition, Google announced Googlebook â€” a new category of premium Android laptops, positioning them above traditional Chromebooks.
+At today's Android Show | I/O Edition, Google announced Googlebook â€?a new category of premium Android laptops, positioning them above traditional Chromebooks.
 
 ### What Is Googlebook?
 
@@ -205,7 +205,7 @@ Googlebook isn't a single Google-made device, but a partner brand similar to Chr
 
 Googlebook puts AI front and center:
 
-- **Magic Pointer**: Shake your cursor and Gemini analyzes on-screen content â€” compare images, create shopping composites, or add calendar events from emails
+- **Magic Pointer**: Shake your cursor and Gemini analyzes on-screen content â€?compare images, create shopping composites, or add calendar events from emails
 - **Create My Widget**: Describe a widget in natural language, and Gemini generates it on the fly, pulling data from Gmail, Calendar, and search
 
 ### Cross-Device Features
@@ -237,7 +237,7 @@ The Camera app gets a completely overhauled interface where users can arrange co
 
 ### Siri Becomes a 24/7 AI Agent
 
-Siri is getting its biggest overhaul ever â€” transforming from a voice assistant into an always-on AI agent that can access personal data and perform actions across apps. The new interface features a large Dynamic Island animation, and users can swipe down into a chatbot-style conversation mode. A new "Search or Ask" bar also lets users toggle between Siri, ChatGPT, and Gemini.
+Siri is getting its biggest overhaul ever â€?transforming from a voice assistant into an always-on AI agent that can access personal data and perform actions across apps. The new interface features a large Dynamic Island animation, and users can swipe down into a chatbot-style conversation mode. A new "Search or Ask" bar also lets users toggle between Siri, ChatGPT, and Gemini.
 
 ### Safari, Weather, and System Changes
 
@@ -288,7 +288,7 @@ Already released overseas, the Watch Kids X1 and X1 Pro feature a 1.82\" AMOLED 
     summary: "Huawei's smart car partner Zhijie unveils the V9 flagship MPV with a 35-speaker, 9.3.8-channel audio system, independent sound zones for each seat, and 72-hour pre-orders exceeding 22,500 units.",
     content: `## Huawei's Automotive Audio Ambitions
 
-The Zhijie V9, Huawei's latest smart car collaboration, has been revealed with an extraordinary audio system â€” the same HUAWEI SOUND Ultimate setup found in the ultra-luxury Maextro S800.
+The Zhijie V9, Huawei's latest smart car collaboration, has been revealed with an extraordinary audio system â€?the same HUAWEI SOUND Ultimate setup found in the ultra-luxury Maextro S800.
 
 ### Audio Specifications
 
@@ -304,7 +304,7 @@ Priced from Â¥399,800 (~$55,300), the Zhijie V9 has received over 22,500 pre-ord
 
 ### Market Context
 
-This model represents Huawei's growing influence in the automotive sector, bringing premium audio technology from its luxury sedan to a family-friendly MPV format â€” directly competing with traditional luxury MPVs from Lexus and Mercedes.`,
+This model represents Huawei's growing influence in the automotive sector, bringing premium audio technology from its luxury sedan to a family-friendly MPV format â€?directly competing with traditional luxury MPVs from Lexus and Mercedes.`,
     category: 'ev',
     tags: ['Huawei', 'Zhijie', 'MPV', 'Electric Vehicle', 'Automotive Audio'],
     author: 'China Tech Insider',
@@ -318,7 +318,7 @@ This model represents Huawei's growing influence in the automotive sector, bring
     summary: "Xiaomi Automotive announces dramatically improved YU7 delivery capacity, with some configurations now available for same-day pickup as production ramps up.",
     content: `## Xiaomi's EV Production Hits Full Stride
 
-Xiaomi Automotive has announced a major improvement in YU7 delivery capacity, with some popular configurations now available for pickup within 2 hours â€” a remarkable turnaround from the extended waiting periods earlier this year.
+Xiaomi Automotive has announced a major improvement in YU7 delivery capacity, with some popular configurations now available for pickup within 2 hours â€?a remarkable turnaround from the extended waiting periods earlier this year.
 
 ### What Changed
 
@@ -340,7 +340,7 @@ This development is significant for Xiaomi's EV ambitions. After a blockbuster l
     summary: "Reports reveal a massive bonus gap at SK Hynix, with Chinese employees receiving less than 5% of the bonuses paid to their Korean counterparts, sparking discussions about global pay equity.",
     content: `## Semiconductor Pay Disparity Exposed
 
-According to industry sources, SK Hynix's Chinese employees receive bonuses totaling less than 5% of what their Korean colleagues earn â€” a disparity that highlights the ongoing challenges of global pay structures in the semiconductor industry.
+According to industry sources, SK Hynix's Chinese employees receive bonuses totaling less than 5% of what their Korean colleagues earn â€?a disparity that highlights the ongoing challenges of global pay structures in the semiconductor industry.
 
 ### Context
 
@@ -366,7 +366,7 @@ Huawei founder Ren Zhengfei made a rare public appearance on China Central Telev
 
 ### Significance
 
-Ren, who rarely appears in media, has become a symbol of China's drive for semiconductor self-sufficiency. His appearance on national television signals confidence in Huawei's chip research progress â€” an area that has been under intense scrutiny since US sanctions cut off Huawei's access to advanced chip manufacturing.
+Ren, who rarely appears in media, has become a symbol of China's drive for semiconductor self-sufficiency. His appearance on national television signals confidence in Huawei's chip research progress â€?an area that has been under intense scrutiny since US sanctions cut off Huawei's access to advanced chip manufacturing.
 
 ### The Lab Visit
 
@@ -404,18 +404,4 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
   },
 ];
 
-export const getArticles = (category?: string): Article[] => {
-  const sorted = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-  if (!category || category === 'all') {
-    return sorted;
-  }
-  return sorted.filter(article => article.category === category);
-};
-
-export const getArticleBySlug = (slug: string): Article | undefined => {
-  return articles.find(article => article.slug === slug);
-};
-
-export const getRelatedArticles = (category: string, excludeId: string): Article[] => {
-  return articles.filter(article => article.category === category && article.id !== excludeId).slice(0, 3);
-};
+export const getArticles
