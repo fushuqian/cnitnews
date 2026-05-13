@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { articles, getArticleBySlug, getRelatedArticles } from '@/data/articles';
@@ -70,21 +72,9 @@ export default function ArticlePage({ article, relatedArticles }: Props) {
           </div>
 
           <div className="article-content text-gray-700">
-            {article.content.split('\n').map((paragraph, index) => {
-              if (paragraph.startsWith('## ')) {
-                return <h2 key={index}>{paragraph.slice(3)}</h2>;
-              }
-              if (paragraph.startsWith('### ')) {
-                return <h3 key={index}>{paragraph.slice(4)}</h3>;
-              }
-              if (paragraph.startsWith('- ')) {
-                return <li key={index}>{paragraph.slice(2)}</li>;
-              }
-              if (paragraph.trim() === '') {
-                return null;
-              }
-              return <p key={index}>{paragraph}</p>;
-            })}
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {article.content}
+            </ReactMarkdown>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-2">
