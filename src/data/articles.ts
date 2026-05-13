@@ -179,7 +179,7 @@ This launch shows how Chinese consumer electronics brands are moving beyond just
     tags: ['Laifen', 'Consumer Electronics', 'Hair Dryer', 'Chinese Brands'],
     author: 'China Tech Insider',
     publishedAt: '2026-05-13',
-    imageUrl: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800',
+    imageUrl: '/images/articles/laifen-se2-wiggle.jpg',
   },
   {
     id: '8',
@@ -217,7 +217,7 @@ This move represents Chinese smartphone makers' strategy to diversify beyond sat
     tags: ['vivo', 'Gimbal Camera', 'OPPO', 'DJI', 'Consumer Electronics', 'Chinese Tech'],
     author: 'China Tech Insider',
     publishedAt: '2026-05-13',
-    imageUrl: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800',
+    imageUrl: '/images/articles/vivo-pocket-gimbal.jpg',
   },
 ];
 
