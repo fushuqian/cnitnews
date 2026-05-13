@@ -6,7 +6,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">CN Geeker</h3>
             <p className="text-gray-400 text-sm">
-              Your trusted source for the latest Chinese technology news and insights.
+              Your geeky guide to the latest Chinese technology news.
+            </p>
+            <p className="text-gray-400 text-sm mt-3">
+              <a href="mailto:contact@cngeeker.com" className="hover:text-white transition-colors">contact@cngeeker.com</a>
             </p>
           </div>
           <div>
