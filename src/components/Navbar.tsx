@@ -17,8 +17,8 @@ export default function Navbar({ currentCategory = 'all' }: NavbarProps) {
     <nav className="bg-primary-500 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-white text-2xl font-bold hover:text-gray-200 transition-colors">
-            CN Geeker
+          <Link href="/" className="flex items-center">
+            <img src="/images/cngeeker-logo.png" alt="CN Geeker" className="h-10 w-auto" />
           </Link>
           
           {/* Desktop: dropdown on hover */}
