@@ -463,10 +463,26 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
     publishedAt: '2026-05-14',
     imageUrl: '/images/articles/vivo-originos6-may-update.jpg',
   },
+  {
+    id: '25',
+    title: 'DJI Osmo Pocket 3 Drops to Record Low of 2199 Yuan as Pocket 4 Launches at 2999 Yuan',
+    slug: 'dji-osmo-pocket3-price-drop-618',
+    summary: 'DJI Osmo Pocket 3 hits a new low of 2199 yuan (about $305) during 618 shopping festival, down from original 3499 yuan, as the newly released Pocket 4 starts at 2999 yuan.',
+    content: '## DJI Pocket 3 at All-Time Low During 618 Festival\n\nThe DJI Osmo Pocket 3 has dropped to a record low of 2199 yuan ($305) during the 618 shopping festival, down from its original 3499 yuan. The Pocket 4 has also launched at 2999 yuan ($416).\n\n### Price Comparison\n\n- Original price: 3499 yuan ($485)\n- 618 price: 2299 yuan ($319)\n- Flash sale: 2199 yuan ($305)\n\n### Pocket 3 vs Pocket 4\n\nThe Pocket 3 features a 1-inch stacked CMOS sensor, 4K@120FPS, and a built-in 3-axis gimbal. The newly launched Pocket 4 continues the evolution at a higher price point.\n\n### Why This Matters\n\nAt 2199 yuan, the Pocket 3 offers incredible value. This price drop signals intensifying competition in the handheld camera market as Chinese phone makers like vivo and OPPO prepare to enter.',
+    category: 'gadgets',
+    tags: ['DJI', 'Osmo Pocket', 'Gimbal Camera', '618', 'Shopping Festival'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-14',
+    imageUrl: '/images/articles/dji-pocket3-price-drop.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
-  const sorted = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  const sorted = [...articles].sort((a, b) => {
+    const da = new Date(a.publishedAt).getTime();
+    const db = new Date(b.publishedAt).getTime();
+    return db - da;
+  });
   if (!category || category === 'all') {
     return sorted;
   }
