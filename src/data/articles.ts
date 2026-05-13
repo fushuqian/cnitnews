@@ -221,7 +221,7 @@ Industry observers see Googlebook as a signal that Google is gradually shifting 
     author: 'China Tech Insider',
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/google-googlebook.jpg',
-  },  },
+  },
   {
     id: '13',
     title: 'iOS 27 Preview: Fully Customizable Camera, Rebuilt Siri AI Agent, Redesigned Safari and Weather',
