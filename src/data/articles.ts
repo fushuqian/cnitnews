@@ -402,6 +402,31 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/microsoft-winui3-optimization.jpg',
   },
+
+  {
+    id: '20',
+    title: 'Huawei Pura X Max Gets Tablet Mode in Major Update',
+    slug: 'huawei-purax-max-tablet-mode-update',
+    summary: 'Huawei unique landscape foldable Pura X Max receives update adding tablet mode, AI photo composition, and smart screenshot services.',
+    content: 'Huawei has pushed a major update (HarmonyOS 6.1.0.120 SP16) to its Pura X Max, adding a built-in tablet mode that lets the landscape foldable function as both a phone and a tablet. Key features include a tablet layout option, AI-assisted photo composition, smart screenshot actions, and new photo editing tools.',
+    category: 'gadgets',
+    tags: ['Huawei', 'HarmonyOS', 'Foldable', 'Pura X Max'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/huawei-purax-max-foldable.jpg',
+  },
+  {
+    id: '21',
+    title: 'Honor AppGallery Now Available on Huawei App Store',
+    slug: 'honor-appgallery-huawei-appstore',
+    summary: 'Honor official shopping app is now on Huawei HarmonyOS app market, with 4 Honor apps now available on the platform.',
+    content: 'Honor AppGallery has been listed on Huawei HarmonyOS app market, signaling continued ecosystem collaboration. Honor now has 4 apps on Huawei platform: Honor AppGallery, Honor Smart Space, Honor Health, and Honor Phone Clone. Over 55 million devices now run HarmonyOS 6.',
+    category: 'gadgets',
+    tags: ['Honor', 'Huawei', 'HarmonyOS', 'App Store'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/honor-appgallery-harmonyos.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
