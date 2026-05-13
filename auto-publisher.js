@@ -153,8 +153,19 @@ function extractImageUrl(html) {
 
 function extractContent(html) {
   // Get text from the article body
-  const m = html.match(/<div[^>]*class="[^"]*post_content[^"]*"[^>]*>([\s\S]*?)<\/div>/i);
-  if (m) return stripTags(m[1]).substring(0, 3000);
+  const m = html.match(/<div class="post_content "[^>]*id="paragraph"[^>]*>([\s\S]*?)<\/div>\s*<div[^>]*class="shareto"/i);
+  if (m) {
+    // Get text content including <p> tags
+    const content = m[1];
+    const paras = [];
+    const pRegex = /<p>([\s\S]*?)<\/p>/g;
+    let pm;
+    while ((pm = pRegex.exec(content)) !== null) {
+      const text = stripTags(pm[1]).trim();
+      if (text.length > 5) paras.push(text);
+    }
+    return paras.join('\n\n').substring(0, 3000);
+  }
   // Fallback: extract all paragraphs
   const paras = [];
   const pRegex = /<p>([\s\S]*?)<\/p>/g;
@@ -390,9 +401,10 @@ ${content.substring(0, 2500)}`;
   // 6. git push
   console.log('[6/6] Pushing to GitHub...');
   try {
-    execSync('git add .', { cwd: PROJECT_DIR, stdio: 'pipe' });
-    execSync(`git commit -m "Auto publish ${newEntries.length} articles [bot]"`, { cwd: PROJECT_DIR, stdio: 'pipe' });
-    execSync('git push', { cwd: PROJECT_DIR, stdio: 'pipe' });
+    const gitEnv = Object.assign({}, process.env, { PATH: process.env.PATH + ';' + process.env.GIT_PATH });
+    execSync('git add .', { cwd: PROJECT_DIR, stdio: 'pipe', env: gitEnv });
+    execSync('git commit -m "Auto publish ' + newEntries.length + ' articles [bot]"', { cwd: PROJECT_DIR, stdio: 'pipe', env: gitEnv });
+    execSync('git push', { cwd: PROJECT_DIR, stdio: 'pipe', env: gitEnv });
     console.log('  ✅ Successfully deployed to Vercel!');
   } catch (e) {
     console.log('  ⚠️ Git push error:', e.message);
