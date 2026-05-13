@@ -281,6 +281,58 @@ Already released overseas, the Watch Kids X1 and X1 Pro feature a 1.82\" AMOLED 
     publishedAt: '2026-05-13',
     imageUrl: '/images/articles/huawei-nova16-family.jpg',
   },
+  {
+    id: '15',
+    title: 'Zhijie V9 MPV Gets Huawei\'s Premium Sound System: 35 Speakers, 720° Surround Audio, Independent Zones',
+    slug: 'zhijie-v9-huawei-sound-system',
+    summary: "Huawei's smart car partner Zhijie unveils the V9 flagship MPV with a 35-speaker, 9.3.8-channel audio system, independent sound zones for each seat, and 72-hour pre-orders exceeding 22,500 units.",
+    content: `## Huawei's Automotive Audio Ambitions
+
+The Zhijie V9, Huawei's latest smart car collaboration, has been revealed with an extraordinary audio system — the same HUAWEI SOUND Ultimate setup found in the ultra-luxury Maextro S800.
+
+### Audio Specifications
+
+- **Configuration**: 9.3.8 independent channels
+- **Speakers**: 35 total, including 8 headrest speakers
+- **Power**: 2,920W amplifier output
+- **Sky Sound Array**: 8 overhead channels for 720° surround sound
+- **Independent Zones**: "4 seats, 2 speakers" per zone with sound isolation tunnels
+
+### Pre-Sales Performance
+
+Priced from ¥399,800 (~$55,300), the Zhijie V9 has received over 22,500 pre-orders in just 72 hours. The official launch is scheduled for May 15.
+
+### Market Context
+
+This model represents Huawei's growing influence in the automotive sector, bringing premium audio technology from its luxury sedan to a family-friendly MPV format — directly competing with traditional luxury MPVs from Lexus and Mercedes.`,
+    category: 'ev',
+    tags: ['Huawei', 'Zhijie', 'MPV', 'Electric Vehicle', 'Automotive Audio'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/zhijie-v9-huawei-audio.jpg',
+  },
+  {
+    id: '16',
+    title: 'Xiaomi\'s YU7 EV Delivery Capacity Skyrockets: "Buy Today, Pick Up in 2 Hours"',
+    slug: 'xiaomi-yu7-delivery-surge',
+    summary: "Xiaomi Automotive announces dramatically improved YU7 delivery capacity, with some configurations now available for same-day pickup as production ramps up.",
+    content: `## Xiaomi's EV Production Hits Full Stride
+
+Xiaomi Automotive has announced a major improvement in YU7 delivery capacity, with some popular configurations now available for pickup within 2 hours — a remarkable turnaround from the extended waiting periods earlier this year.
+
+### What Changed
+
+Xiaomi has been aggressively ramping up production at its Beijing factory, resolving earlier supply chain bottlenecks that caused wait times of several months. The company now appears to have achieved stable production flow.
+
+### Market Impact
+
+This development is significant for Xiaomi's EV ambitions. After a blockbuster launch, the YU7 faced production constraints that frustrated customers. Now with faster delivery, Xiaomi can maintain momentum against competitors like BYD, NIO, and XPeng in China's hyper-competitive EV market.`,
+    category: 'ev',
+    tags: ['Xiaomi', 'YU7', 'Electric Vehicle', 'Delivery', 'Production'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: '/images/articles/xiaomi-yu7-delivery.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
