@@ -451,6 +451,18 @@ WinUI 3 is Microsoft's modern native UI framework for Windows, used by both Micr
     publishedAt: '2026-05-14',
     imageUrl: '/images/articles/jiuzhang-4-quantum.jpg',
   },
+  {
+    id: '24',
+    title: 'vivo OriginOS 6 May Update: AI Voice Photo Editing, Atomic Island Charging Animation, and More',
+    slug: 'vivo-originos6-may-update-ai-features',
+    summary: 'vivo rolls out May 2026 updates for OriginOS 6 including voice-controlled photo editing via AI assistant, redesigned watermarks, folder date grouping, and smart car map switching.',
+    content: '## vivo OriginOS 6 Gets a Fresh Batch of Features\n\nvivo has announced the May 2026 experience upgrade for its OriginOS 6, bringing several practical improvements to photos, AI assistant, and system interface.\n\n### AI Photo Editing Goes Voice\n\nThe standout feature is voice-controlled photo editing. Users can now open a photo in the gallery and tell the AI assistant (Little V) to edit it with simple voice commands like remove the background or make it warmer. No more tapping through menus.\n\n### Gallery Upgrades\n\n- New color grading presets with customizable color wheel\n- Enhanced watermark editor with more templates and custom parameters\n- Folder view now supports date grouping for quick browsing\n- Page layout customization with flexible sorting and display options\n\n### Atomic Island Charging Animation\n\nThe Atomic Island (vivos version of Dynamic Island) now shows real-time charging speed and battery info when plugged in.\n\n### AI Writing Shortcut\n\nLong-press to access AI writing directly from the system clipboard menu - useful for quick text composition.\n\n### Smart Car Integration\n\nNew support for switching to phone map apps on the car display, enabling features like route search, obstacle avoidance, and destination parking on the车载 screen.\n\n### Other Improvements\n\n- AI Reading assistant accessible from Control Center\n- Blue Heart AI optimized for better multimedia responses\n- New blur materials for calendar, email, and weather widgets\n- AI network optimization for stable connections\n- TalkBack accessibility improvements',
+    category: 'gadgets',
+    tags: ['vivo', 'OriginOS', 'Android', 'Smartphone', 'AI Features'],
+    author: 'CN Geeker',
+    publishedAt: '2026-05-14',
+    imageUrl: '/images/articles/vivo-originos6-may-update.jpg',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {
