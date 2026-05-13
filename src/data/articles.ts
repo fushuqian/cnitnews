@@ -145,6 +145,42 @@ The company plans to release its next-generation AI chip with improved performan
     publishedAt: '2024-01-10',
     imageUrl: 'https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=800',
   },
+  {
+    id: '7',
+    title: "Laifen Launches SE 2 Wiggle Edition Hair Dryer: Chinese Brand's Latest Consumer Tech Hit",
+    slug: 'laifen-se2-wiggle-hair-dryer-launch',
+    summary: "Laifen's SE 2 Wiggle collaboration edition hair dryer launches at just ¥424 (≈$59), featuring a 108,000 RPM motor, smart temperature control, and a dedicated children's mode.",
+    content: `## Laifen Goes Collaborative
+
+Laifen (徕芬), the Chinese consumer electronics brand known for its high-speed hair dryers, has launched the SE 2 Wiggle collaboration edition. The special edition is priced at just ¥424.15 (approximately $59 USD) after government subsidies.
+
+### What's in the Box
+
+Beyond the hair dryer itself, the Wiggle edition includes custom hair ties, decorative accessories, a limited-edition paint job, and a collector's gift box.
+
+### Performance Specs
+
+- **Motor Speed**: Up to 108,000 RPM
+- **Max Airflow**: 21.5 m/s (30% faster than the previous generation)
+- **Temperature Control**: 80 automatic adjustments per second
+- **Noise Level**: Max 59 dB
+- **Ions**: 200 million negative ions for anti-frizz
+
+### Smart Features
+
+One standout feature is the **Children's Mode**, with two temperature settings: 38°C at level 1 and 48°C at level 2, making it safer for family use. The dryer also offers 2 fan speeds and 6 temperature settings.
+
+### Global Context
+
+Laifen has been aggressively expanding overseas, with its products available on Amazon and Best Buy in the U.S. The original SE 2 retails for around $79-99 on Amazon, making the Wiggle edition's ¥424 price point (around $59) particularly competitive for the Chinese domestic market.
+
+This launch shows how Chinese consumer electronics brands are moving beyond just "good enough" to offering genuinely innovative features at compelling price points — a trend that global consumers are starting to notice.`,
+    category: 'gadgets',
+    tags: ['Laifen', 'Consumer Electronics', 'Hair Dryer', 'Chinese Brands'],
+    author: 'China Tech Insider',
+    publishedAt: '2026-05-13',
+    imageUrl: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800',
+  },
 ];
 
 export const getArticles = (category?: string): Article[] => {

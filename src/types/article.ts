@@ -11,7 +11,7 @@ export interface Article {
   imageUrl: string;
 }
 
-export type Category = 'ai' | 'chip' | 'ev' | 'internet' | 'overseas';
+export type Category = 'ai' | 'chip' | 'ev' | 'internet' | 'overseas' | 'gadgets';
 
 export const categories: { key: Category; label: string }[] = [
   { key: 'ai', label: 'AI' },
@@ -19,4 +19,5 @@ export const categories: { key: Category; label: string }[] = [
   { key: 'ev', label: 'EV' },
   { key: 'internet', label: 'Internet' },
   { key: 'overseas', label: 'Global Expansion' },
+  { key: 'gadgets', label: 'Consumer Tech' },
 ];
